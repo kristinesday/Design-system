@@ -1,0 +1,101 @@
+.colors, 
+.fonts,
+.textstyles {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.blue, .pink, .green, .yellow {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  margin: 10px auto;
+  width: 20%;
+  height: 15%;
+}
+
+.blue {
+  color: white;
+  border: 1px solid #0000FF;
+  background-color: #0000FF;
+}
+
+.pink{
+  color: white;
+  border: 1px solid #FFC0CB;
+  background-color: #FFC0CB;
+}
+
+.green {
+  color: white;
+  border: 1px solid #008000;
+  background-color: #008000;
+}
+
+.yellow {
+  color: black;
+  border: 1px solid #FFFF00;
+  background-color: #FFFF00;
+}
+
+// Font section ///
+
+.font-label {
+  text-decoration: underline;
+  display: inline;
+}
+
+.nunito {
+  font-family: "Nunito Sans"
+}
+
+.nunito-bold {
+  font-weight: bold;
+}
+
+.nunito-regular {
+  font-weight: regular;
+}
+
+.nunito-italic {
+  font-style: italic;
+}
+
+.helvetica {
+  font-family: "Helvetica"
+}
+
+.helvetica-bold {
+  font-weight: bold;
+}
+
+.helvetica-regular {
+  font-weight: regular;
+}
+
+.helvetica-italic {
+  font-style: italic;
+}
+
+
+.times {
+  font-family: "Times New Roman"
+}
+
+.times-bold {
+  font-weight: bold;
+}
+
+.times-regular {
+  font-weight: regular;
+}
+
+.times-italic {
+  font-style: italic;
+}
+
+.nunito, .helvetica, .times {
+  display: inline-block;
+  margin: 10px;
+}
